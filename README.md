@@ -1,4 +1,4 @@
-## NodeJs + React Starter Pack
+## NodeJs + ReactJs Starter Pack
 
 - In this repo you can find a simple NodeJs + ReactJs starter pack App
 - The node server is built with ExpressJs Framework
@@ -18,7 +18,7 @@ Bonnus: Added script to heroku deployment
 #### 2 - Run the app locally <a name="run-app"></a>
 
 - Run `npm run dev` from the root directory
-- The server and client side reboot anytime you make changes, Happy Coding!
+- The server and client side reboot everytime you make changes, Happy Coding!
 
 #### 3 - Deploy to Heroku <a name="deploy-heroku"></a>
 
