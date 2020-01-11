@@ -4,7 +4,8 @@
   "description": "A simple starter pack for NodeJs + ReactJs App",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "server": "nodemon index.js"
   },
   "author": "Jérémy Geneste",
   "license": "ISC",
