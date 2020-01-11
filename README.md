@@ -1,6 +1,6 @@
 ## NodeJs + React Starter Pack
 
-- In this repo you can find a simple NodeJs + ReactJs start pack App
+- In this repo you can find a simple NodeJs + ReactJs starter pack App
 - The node server is built with ExpressJs Framework
 
 Bonnus: Added script to heroku deployment
@@ -27,11 +27,11 @@ Bonnus: Added script to heroku deployment
 
 note: type all the command lines from the root directory
 
-1 - Login to heroku with `heroku login`
-2 - Create a new Heroku App with `heroku create`
-3 - Connect to the git repo that Heroku create provided you with `git remote add heroku https://git.heroku.com/link-heroku-provided.git` (paste the link provided by Heroku, not this fake one)
-4 - git add, commit and then push to Heroku with `git push heroku master` and you should be done
-5 - Everytime you want to re-deploy, just add, commit and push to Heroku
+1 - Login to heroku with `heroku login` <br>
+2 - Create a new Heroku App with `heroku create` <br>
+3 - Connect to the git repo that Heroku create provided you with `git remote add heroku https://git.heroku.com/link-heroku-provided.git` (paste the link provided by Heroku, not this fake one) <br>
+4 - git add, commit and then push to Heroku with `git push heroku master` and you should be done <br>
+5 - Everytime you want to re-deploy, just add, commit and push to Heroku <br>
 
 note: You can check the <strong>heroku-postbuild</strong> script in the server's package.json and the if statement to handle production mode at the bottom of the app.js server file.
 
