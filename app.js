@@ -10,16 +10,6 @@ const sampleRoutes = require('./routes/sample');
 // app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-if (process.env.NODE_ENV === 'production') {
-  // Express will serve up production assets
-  app.use(express.static('client/build'));
-  // Express will serve up the index.html file
-  // if it doesn't recognize the route
-  app.get('*', (req, res) => {
-    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
-  });
-}
-
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader(
@@ -31,5 +21,15 @@ app.use((req, res, next) => {
 });
 
 app.use('/sample', sampleRoutes);
+
+if (process.env.NODE_ENV === 'production') {
+  // Express will serve up production assets
+  app.use(express.static('client/build'));
+  // Express will serve up the index.html file
+  // if it doesn't recognize the route
+  app.get('*', (req, res) => {
+    res.sendFile(path.resolve(__dirname, 'client', 'build', 'index.html'));
+  });
+}
 
 app.listen(PORT);
