@@ -9,6 +9,6 @@ const router = express.Router();
 
 const sampleController = require('../controllers/sample');
 
-router.get('/sample', sampleController.getSample);
+router.get('/helloworld', sampleController.getSample);
 
 module.exports = router;
