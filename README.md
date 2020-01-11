@@ -3,7 +3,7 @@
 - In this repo you can find a simple NodeJs + ReactJs starter pack App
 - The node server is built with ExpressJs Framework
 
-Bonnus: Added script to heroku deployment
+Bonus: Added script to heroku deployment
 
 ### Table of Contents
 
