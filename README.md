@@ -3,7 +3,7 @@
 - In this repo you can find a simple NodeJs + ReactJs starter pack App
 - The node server is built with ExpressJs Framework
 
-Bonus: Added script to heroku deployment
+Bonus: Added script and code to handle Heroku deployment
 
 ### Table of Contents
 
@@ -25,12 +25,12 @@ Bonus: Added script to heroku deployment
 - The code is already handling Heroku deployment but you need to connect to Heroku
 - Assuming that you already have a Heroku account and you already initialized git in your repo, you simply need to follow the steps below :
 
-note: type all the command lines from the root directory
+note: Type all the command lines from the root directory
 
-1 - Login to heroku with `heroku login` <br>
-2 - Create a new Heroku App with `heroku create` <br>
-3 - Connect to the git repo that Heroku create provided you with `git remote add heroku https://git.heroku.com/link-heroku-provided.git` (paste the link provided by Heroku, not this fake one) <br>
-4 - git add, commit and then push to Heroku with `git push heroku master` and you should be done <br>
+1 - Login to heroku with `heroku login` <br><br>
+2 - Create a new Heroku App with `heroku create` <br><br>
+3 - Connect to the git repo that Heroku create provided you with `git remote add heroku https://git.heroku.com/link-heroku-provided.git` (paste the link provided by Heroku, not this fake one) <br><br>
+4 - git add, commit and then push to Heroku with `git push heroku master` and you should be done <br><br>
 5 - Everytime you want to re-deploy, just add, commit and push to Heroku <br>
 
 note: You can check the <strong>heroku-postbuild</strong> script in the server's package.json and the if statement to handle production mode at the bottom of the app.js server file.
