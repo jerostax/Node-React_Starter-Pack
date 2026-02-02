@@ -35,4 +35,4 @@ note: Type all the command lines from the root directory
 
 note: You can check the <strong>heroku-postbuild</strong> script in the server's package.json and the if statement to handle production mode at the bottom of the app.js server file.
 
-Made by Jérémy Geneste.
+Made by Jérémy Geneste..
